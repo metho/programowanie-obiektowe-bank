@@ -13,8 +13,5 @@ public class Main {
             shouldContinueToRun = UserInputUtil.handleUserOption(shouldContinueToRun, bank);
         }
         FileStorageService.saveToFile(bank);
-
     }
-
-
 }
